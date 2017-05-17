@@ -2,6 +2,8 @@
 # of appearance. Changing the order has an impact on the overall integration
 # process, which may cause wedges in the gate later.
 
+-r requirements.txt
+
 # hacking 0.13.0 does not support Python 3.5, manually run python3 -m pip install -U flake8
 # when hacking 0.14.0 released, uncomment the following line and remove this comment and
 # remove the requirements in this block (except for hacking)
